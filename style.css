@@ -52,7 +52,7 @@
 	}
 
 	.stretch{
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 
 
@@ -109,7 +109,7 @@
 	}
 
 	.stretch{
-		margin-bottom: 90px;
+		margin-bottom: 35px;
 	}
 
 }
@@ -188,7 +188,6 @@ body {
 	font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
 	margin: 0 auto;
 
-	/*box-shadow: 11px 0 15px -4px rgba(83, 83, 83, 0.6), -11px 0 15px -4px rgba(83, 83, 83, 0.6);*/
 	-webkit-box-shadow: rgb(0, 0, 0) 0px 10px 13px -7px, 0px 14px 19px 4px rgba(0,0,0,0.72); 
 	box-shadow: rgb(0, 0, 0) 0px 10px 13px -7px, 0px 14px 19px 4px rgba(0,0,0,0.72);
 
