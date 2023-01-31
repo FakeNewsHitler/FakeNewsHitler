@@ -1,0 +1,258 @@
+@media screen and (max-width: 20cm) {
+	.news {
+		width: 88vw;
+		padding-left: 1vw;
+		padding-right: 1vw;
+	}
+
+	.main {
+		padding-left: 5%;
+		padding-right: 5%;
+		font-size: 22px;
+		padding-bottom: 12%;
+	}
+
+	.stretch {
+		width: 90%;
+	}
+
+	.headli {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	body {
+		opacity: 0.9;
+	}
+	
+	.foot {
+		font-size: 12px;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	#header1 {
+		flex: 2;
+	}
+	#header2 {
+		flex: 1;
+	}
+
+	.contain {
+		margin-top: 25%;
+		margin-bottom: 8%;
+	}
+
+	.header {
+		height: 8%;
+	}
+
+	#catch {
+		color: rgba(0,0,0,0);
+	}
+
+	.stretch{
+		margin-bottom: 30px;
+	}
+
+
+}
+
+@media screen and (min-width: 20cm) {
+	.news {
+		width: 60vw;
+	}
+
+	.main {
+		padding-left: 6%;
+		padding-right: 6%;
+		font-size: 25px;
+		padding-bottom: 6%;
+	}
+
+	.stretch {
+		width: 88%;
+	}
+
+	.headli {
+		margin-left: 6%;
+		margin-right: 6%;
+	}
+
+	body {
+		opacity: 1;
+	}
+
+	.foot {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
+	#header1 {
+		flex: 1;
+	}
+	#header2 {
+		flex: 1.5;
+	}
+
+	.contain {
+		margin-top: 13vh;
+		margin-bottom: 4%;
+	}
+
+	.header {
+		height: 9%;
+	}
+
+	#catch {
+		color: white;
+	}
+
+	.stretch{
+		margin-bottom: 90px;
+	}
+
+}
+
+
+
+/* ---------------------- Misc ---------------------- */
+
+body {
+	background-color: #f1f1f1;
+	opacity: 1;
+	background-size: 20px 20px;
+	background-image:  repeating-linear-gradient(to top, #c4c4c4, #c4c4c4 1px, #f1f1f1 1px, #f1f1f1);
+	height: 100%;
+	margin: 0;
+    padding: 0;
+	display: flex;
+    flex-direction: column;	
+}
+
+.container {	
+	height: 100%;
+    margin: 0;
+    padding: 0;
+	flex: 1;
+}
+
+.contain {
+	flex: 1;
+    display: flex;
+    flex-direction: column;
+	height: 100%;
+}
+
+
+
+
+
+/* ---------------------- Header ---------------------- */
+
+.header {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(43, 54, 70);
+}
+
+#header1 {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+#header2 {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+
+#catch {
+	font-family: Tahoma;
+	margin-right: 5%;
+}
+
+
+
+
+
+
+/* ---------------------- Main news text ---------------------- */
+.news {	
+	font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+	margin: 0 auto;
+
+	/*box-shadow: 11px 0 15px -4px rgba(83, 83, 83, 0.6), -11px 0 15px -4px rgba(83, 83, 83, 0.6);*/
+	-webkit-box-shadow: rgb(0, 0, 0) 0px 10px 13px -7px, 0px 14px 19px 4px rgba(0,0,0,0.72); 
+	box-shadow: rgb(0, 0, 0) 0px 10px 13px -7px, 0px 14px 19px 4px rgba(0,0,0,0.72);
+
+	background-color: rgb(248, 248, 248);
+
+	height: 100%;
+	
+	text-align: justify;
+	text-justify: auto;	
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+	
+.main {
+	background-color: rgb(248, 248, 248);
+	line-height: 1.5;
+	margin-bottom: 0;
+}
+
+
+.headline {
+	font-family: Merriweather;
+	background-color: rgb(248, 248, 248);
+	text-align: center;
+	padding-top: 1.5vh;
+	padding-bottom: 1vh;
+	width: 100%;
+}
+
+.headli {
+	padding-top: 4%;
+	padding-bottom: 4%;
+	border-width: 0.1em;
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+
+.stretch {
+	position: relative;
+	padding-bottom: 56.25%;	
+}
+
+.video {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+/* ---------------------- Footer ---------------------- */
+.footer {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 100%;
+	background-color: rgb(48, 48, 48);
+	text-align: center;
+}
+
+
+.foot {
+	color: white;
+	font-family: Roboto;
+}
+
